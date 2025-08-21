@@ -8,10 +8,11 @@
 - Range: 1 - 126
 - Total Number of network : 2^7 - 2 = 126
 - Total Number of host : 2^24 -2
-   - __127 . x . x . x can't be used as a source IP(SIP)__
+   - __127 . x . x . x can't be used as a source IP(SIP)(total add 2^24)__
    - __it always be used as a destination IP Address (DTP)__
    - __it  reserved for some special purpose so at can't be assigged to any computer (Host)__
-
+   - __127.0.0.0 and 127.255.255.255 not will use (we will discuss in future why)__
+     
 ## Class B :
  - 2 bit fix `10` (First two bit)
  - Total ip : 2^30
