@@ -1,7 +1,7 @@
 # Classful Addressing
 
 ## Class A 
-- 1 bit fix `0`
+- 1 bit fix `0` (First bit)
 - Total ip : 2^31
 - Network id: 08 bit
 - Host id: 24 bit
