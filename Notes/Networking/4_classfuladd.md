@@ -1,5 +1,17 @@
 # Classful Addressing
 
+## Class A 
+- 1 bit fix `0`
+- Total ip : 2^31
+- Network id: 08 bit
+- Host id: 24 bit
+- Range: 1 - 126
+- Total Number of network : 2^7 - 2 = 126
+- Total Number of host : 2^24 -2
+   - __127 . x . x . x can't be used as a source IP(SIP)__
+   - __it always be used as a destination IP Address (DTP)__
+   - __it  reserved for some special purpose so at can't be assigged to any computer (Host)__
+
 ## Class B :
  - 2 bit fix `10` (First two bit)
  - Total ip : 2^30
@@ -16,7 +28,7 @@
                          .
                          .
                    __10__ 111111 . x . x . x  -->  191
-   - Range : 120 to 191
+   - Range : 128 to 191
    - no possibility of all 0 or 1 so no need to remove any netowork ^^) 
    - Total number of network: 2^14
    - Total number of host:    2^16 __but but__ in host all can be x.x.0.0 and x.x.255.255 so we can't assign any computer
