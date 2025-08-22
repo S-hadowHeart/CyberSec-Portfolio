@@ -29,6 +29,8 @@
 
 ## __There is no publicly released proof of concept for achieving RCE via specific CVE__
 
+## How to 
+
 ### Dictionary:
 - RCE : Remote Code Execution
 - CVE : Common Vulnerability and Exporsures
@@ -36,4 +38,4 @@
 - SMB : Server Message Block(SMB) is a Communication protocal(developed on 1983)
     - intended to provide sheared access of systems running IBM's OS
     - It also provide authenticated inter-process communication (IPC) Mechanism. 
--  
+
