@@ -29,7 +29,14 @@
 
 ## __There is no publicly released proof of concept for achieving RCE via specific CVE__
 
-## How to 
+## How to Protect
+- YARA
+      -https://github.com/Neo23x0/signature-base/blob/master/yara/expl_outlook_cve_2024_21413.yar
+      - Yara rule has been created by Florian Roth to detect emails containing the file:\\ elemenet in Moniker Link
+- WireShark
+      - _SMB_ request from the vicitim to the client can be seen in packet capture with a truncated netNTMv2 hash
+- you can block this in firewall leavel but it's depend on your organization
+  
 
 ### Dictionary:
 - RCE : Remote Code Execution
