@@ -28,15 +28,30 @@
             - That make things extremely difficult even we find any way it will not accurate
     -  `sS` : SYN "Half-open" Scans
       - also known as "Half-open" scans or "Stealth" scans
-   
-      - 
     -  `sU` : UDP Scans
-
+      - lack of acknowledgement
+      - makes udp significantly more diffcult(and much slower) to scan.
+      - when packet is sent to an open UDP port , there should be no response.
+      - when this happens Nmap refers to port as begin open|filtered.
+      - if it gets a USP responce(which is very unsual) , then the port is marked as open.
+      - More commonly no response , in which case the request is sent a second time as a double-check. if no responce then port ise market open|filtered and Nmap moves on.
+      - __When packet is sent to closed UDP port__
+        - Target should respond with an ICMP(ping) packet containing a msg that the port is unreachable.
   - Less common port Scan Type:
     - `sN` : TCP Null Scans
+      - when TCP request is sent with no flags set at all.
+      - As per the RFC, the target host should respond with RST if the port is closed.
     - `sF` : TCP FIN Scans
+      - insted of sending a completely empty packet , a request is sent with FIN flag
+      - NMAP expects a RST if the port is closed
     - `sX` : TCP Xmas Scans
-   
-    
+      - send a malformed TCP packet and expects a RST response for closed ports.
+      - it's referred to as an xmas scan as the flags that it sets (PSH, URG and FIN) give it the appearance of blinking christmas tree when viwed as a packet capture in wireshark
+      - if port open no response to malformed packet
+      - filtered of target has responded with ICMP unreachable packet
+    - All threee is interlinked
 
+_it's also worth noting that while RFC 793 mandates that network hosts respond to malformed packets with a RST TCP packet for closed ports, and don't respond at all for open ports; this is not always the case in practice. In particular Microsoft Windows (and a lot of Cisco network devices) are known to respond with a RST to any malformed TCP packet -- regardless of whether the port is actually open or not. This results in all ports showing up as being closed._
+
+RFC - A Request for Comments (RFC) is a publication in a series from the principal technical development and standards-setting bodies for the Internet, most prominently the Internet Engineering Task Force (IETF).
   
