@@ -53,4 +53,34 @@
   - and analysic responces
 
 
-be back after lunch ^^)
+## Decoder
+ - you can use to encode or decode data
+ - or transfer raw data into various encoded and hased forms.
+ - Transformations:
+   - Diffrent transoformation can be applie to diffrent parts of the data
+   - following decode and encode operation are avaliable:
+     - URL
+     - HTML
+     - Base64
+     - ASCII hex
+     - Hex
+     - Octal
+     - Binary
+     - GZIP
+     - also hash functions are avaliable
+    
+
+## Brup sequencer
+ - Tool for analyzing the quality of randomness in a sample of data items.
+ - you can use to test an application's session tokens or other important data items that are intended to be unpredictable ,
+ - such as anti-CSRF tokens , password rest tokens , etc
+   
+ - __CSRF token - Cross Site Request Forgery token__
+   - _a security measure used to prevent malicious attacks where an attacker tricks a user's browser into performing an unwanted action on a web application. The web application generates a unique, unpredictable token for each user session and includes it in forms. When the form is submitted, the server checks if the submitted token matches its expected value; if it doesn't, the request is rejected, thus blocking the forgery attempt._
+
+## Brup comparer
+- Comparaison between any two items of data
+
+## Burp Extender
+- extenstions ......
+
