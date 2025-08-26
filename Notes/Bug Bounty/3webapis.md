@@ -113,6 +113,11 @@
    
   ### Xss, SQLI , cSRF and other acronyms
   - if you take nothing else from this talk take this
-    - PAIs are 
+    - APIs are not special , all those bugs that affect regualar web apps also affect APIs
+  - Particulary the case for things like XSS where the API might allow bypasses of content filtering
+ 
+  ### Mobile Apps and APIs
+  - APis is very common here
+
   
   
