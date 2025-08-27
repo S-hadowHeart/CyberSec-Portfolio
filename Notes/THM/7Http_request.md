@@ -71,7 +71,7 @@
 - it's still widely used today
 ### HTTP/2 (2015)
 - introduced features like multiplexing, header compression , and prioritisation for faster performance.
-### HTTp/3 (2022)
+### HTTP/3 (2022)
 - BUilit on HTTP/2, but uses a new protocol (QUIC) for quicker and more secure connections.
 
 - Although HTTP/2 and HTTP/3 offer better speed and security ,
