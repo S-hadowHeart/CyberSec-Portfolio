@@ -5,6 +5,6 @@
 - __Rule2:__ Number of 0's in the subnet maskk indicate HID part
 
 ## Default subnet mask : 
-Class A : 255.0.0.0
-Class B :  255.255.0.0
-Class C : 255.255.255.0
+- Class A : 255.0.0.0
+- Class B :  255.255.0.0
+- Class C : 255.255.255.0
