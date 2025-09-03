@@ -43,4 +43,3 @@
 - __People, Process and Technology__ coxist in a SOC environment.
 - A team of professional individulas working on state-of-the-art security tools in the presence of proper processes
 - is what makes a mature SOC environment.
-- 
