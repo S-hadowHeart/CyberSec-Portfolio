@@ -21,8 +21,7 @@ This repository contains my learning journey, projects, labs, and certifications
 ---
 
 ## 🏆 Certifications
-- Cisco Networking Essentials (NetAcad) (In Progress)
-- Infosys Springboard – Burp Suite Practitioner (In Progress)  
+- Infosys Springboard – Burp Suite Practitioner  
 - [More to be added...]  
 
 ---
