@@ -14,4 +14,24 @@ Ans. - First check if possible:
    -  but you can take any 1 so , it can be also = 255.255.255.7 or this also possible 255.255.255.44 etc (we can any where 1's) (so any subnet mask where 27 `1` that will possible)
    -  
    
-2.Consider a class B network with 180-subnets and 200 host
+2.Consider a class B network with 180-subnets and 200 hosts per subnet. An appropriate subnet Mask for this network?
+Ans 
+ - First check if possible:
+   - Class-B
+   - 180 *200 <= 2^16 -2
+   - 360000 <= 65534 (yes)
+
+- Class B (NID 16b and HID 16b)
+  - we nee to make 180 subnet
+  - so using 7b we can make only 127 so we need 8b
+  - so SID - 8b , HID -  8b
+  - No of Host|subnet = 2^8 -2 = 254
+  - N of Subnet = 2^8 = 256
+
+- Now let's find Subnetmask
+- BEst :
+- No of 1's in the s.m = NID + SID = 16 + 8 = 24
+- No of 0's in the s.m = HID = 8
+- 255.255.255.255.0 (Best)
+- but other can possible that we dicuss before ..
+     
