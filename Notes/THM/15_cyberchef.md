@@ -55,3 +55,21 @@ _Alternatively , you can directly check how the operations work by hovering on t
   - `Clear Recipe` : This feature will enable users to clear the chosen recipe during usage.
   - bottom `BAKE!` button. This porcesses the data with the given recipe
   - you can tick the `Auto Bake` checkbox : this feature allows users to automatically cook using the selected recipe without manually clicking `BAKE!` every time. 
+
+### Input Area
+- The input area provides a user-friendly space where you can easily input text or files by pasting, typing , or dragging them to perform operations.
+- `Add a new input tab` : This is where an additional tab is created for the user to use different values from the previous tab.
+- `Open folder ad input `: This feature allows users to upload whole folder as input value.
+- `Open file as input ` : This feature allows the user to upload a file as its input value
+- `Clear input and output ` : This feature allows the user to clear any input values inserted and the corresponding output value.
+- `Reset pane layout ` : This feature brings the tool's interface to its default window sizes.
+
+### Ouptput Area
+- The Output area is visual space that showcases the data processing results.
+- it neatly presents the outcomes of any manipulations or transformations ou have applied to the input data, allowing for a clear and intuitive display of the processed information.
+- Features include : 
+- `Save output to file ` : This feature allows the users to save the result into a .dat file.
+- `Copy raw output to the clipboard ` : This feature allows users to copy raw output directly to their clipboard, allowing them to quickly copy the results for use in other applications or documents.
+- `Replace input with output ` : This featuer allows users to quickly overwrite the input data based on the operations' results.
+- `Maximise output pane ` : This featuere brings the tool's interface to its default windows sizes.
+  <img width="1140" height="180" alt="image" src="https://github.com/user-attachments/assets/da794b83-c240-47e3-9368-e2142e119c62" />
