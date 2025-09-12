@@ -63,3 +63,6 @@ Moreover, ensuring that the other party cannot deny being the source is vital fo
 - __Alteration :__
   - is the opposite of integrity.
   - Example : the integrity of a cheque is indispensable
+ 
+- __Destruction/Denial:__
+  - is the opposite of Availability
