@@ -54,5 +54,12 @@ Moreover, ensuring that the other party cannot deny being the source is vital fo
 
 
 ## DAD [Disclosure , Alteration , Destruction/Denial]
+- The security of system is attacked through one of several means.
+- it can be via the disclosure of secret data, alteration of data , or destruction of data.
 
-  
+- __Disclosure :__
+  - is the opposite of confidentiality.
+  - disclosure of confidential data would be an attack on confidentiality.
+- __Alteration :__
+  - is the opposite of integrity.
+  - Example : the integrity of a cheque is indispensable
