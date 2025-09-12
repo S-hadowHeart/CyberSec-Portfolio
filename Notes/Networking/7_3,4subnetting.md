@@ -97,3 +97,5 @@ ANS :
  - so now we can give this two subnet to CEB and CEC 
 
       
+3. Consider a Class network with 3-subnets and 130,50,50 hosts per subnet. An appropriate subnet Mask for this network ?
+- This will not possible. . even you try VLSM
