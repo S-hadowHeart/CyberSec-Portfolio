@@ -66,3 +66,33 @@ Moreover, ensuring that the other party cannot deny being the source is vital fo
  
 - __Destruction/Denial:__
   - is the opposite of Availability
+
+## Fundamental Concepts of Security Models
+- __Bell-LaPadula Model :__
+  - __Simple security Property:__
+    - This Property is referred to as "no read up";
+    - it states that a subject at a lower security level cannot read an object at higher security level.
+    - This rule Prevents access to sensitive information above the authrized level.
+  - __Star security Property :__
+    - This property is referred to as "no write down";
+    - it states that a subject at a higher securtiy level cannot write to an object at lower security level.
+    - This rule prevents the discloure of sensitive information to a subject of lower seucrity level.
+  - __Discretionary-Security Property :__
+    - This property uses an access matrix to allow read and write operations.
+    - An example access matrix is shown in the table below and used in conjunction with the first two properties.
+
+  - The first two propertities can be summarized as "write up , read down".
+  - you can share confidential information with people of high securtiy clarance (write up),
+  - and you can receive confidential information from people with lower with lower securtiy clearance (read down).
+  - There are certain limitations to the Bell-LaPadula model.
+  - Example : it was not designed to handle file-sharing.
+ 
+  ## Biba Model
+  - The Biba Model aims to achieve __inegrity__ by specifitying two main rules:
+    - __simple integrity Property :__
+      - This property is referred to as "no read down";
+      - A lower security level cannot read an object at a higher security level.
+    - __Star integrity Property :__
+      - This property is referred to as "no write up";
+      - A higher security level cannot write to an object at a lower security level.
+  
