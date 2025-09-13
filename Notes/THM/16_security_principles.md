@@ -91,8 +91,23 @@ Moreover, ensuring that the other party cannot deny being the source is vital fo
   - The Biba Model aims to achieve __inegrity__ by specifitying two main rules:
     - __simple integrity Property :__
       - This property is referred to as "no read down";
-      - A lower security level cannot read an object at a higher security level.
+      - A higher integrity subject should not read from a lower integrity object.
     - __Star integrity Property :__
       - This property is referred to as "no write up";
-      - A higher security level cannot write to an object at a lower security level.
-  
+      - A lower integrity subject should not write to a higher integrity object.
+  - These two properties can be summarized as "read up, write down."
+  - This rule is in contrast with the Bell-LaPadula Model,
+  - And this should not be surprising as one is concerned with confidentiality while the other is with integrity
+  - Biba Model suffers from various limitations.
+  - One example is that it does not handle internal threats (insider threat).
+ 
+  ## Clark-Wilson Model
+  - The Clark-wilson Model also aims to achieve integrity by using the following concepts:
+  - __Constrained Data iteam(CDI) :
+    - This refers to the data type whose integrity we want to preserve.
+  - __Unconstrained Data item (UDI) :
+    - These procedures are programmed operations, such as read and write, and should maintain the integrity of CDIs.
+  - __Transformation Procedures (TPs) :__
+    - These procedures are programmed operations , such as read and write and should maintain the integrity of CDIs
+  - __Integrity verification Procedures (IVPs) :__
+    - These procedures check and ensure the validity of CDIs
