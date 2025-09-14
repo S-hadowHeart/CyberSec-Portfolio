@@ -111,3 +111,7 @@ Moreover, ensuring that the other party cannot deny being the source is vital fo
     - These procedures are programmed operations , such as read and write and should maintain the integrity of CDIs
   - __Integrity verification Procedures (IVPs) :__
     - These procedures check and ensure the validity of CDIs
+
+  ## Defence-in-Depth
+  - refers to creating a securtiy system of multiple levels
+  - hence it is also called __Multi-Level security__.
