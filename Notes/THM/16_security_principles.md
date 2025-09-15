@@ -115,3 +115,28 @@ Moreover, ensuring that the other party cannot deny being the source is vital fo
   ## Defence-in-Depth
   - refers to creating a securtiy system of multiple levels
   - hence it is also called __Multi-Level security__.
+
+  ## ISO/IEC 19249
+  - The international Organization for Standardization (ISO) and International Electotechnical Commission  (IEC) have created the ISO/IEC 19249.
+  - The purpose is to have a better idea of what international organizations would teach regarding security  principles.
+  1. __Domain Separation :__
+     - Every set related components is grouped as a single entity;
+     - components can be applications,data, or other resources.
+     - Each entity will have its own domain and be assigned a common set of security attributes.
+     - Example, consider the x86 processor privilege levels:the operating system kernel can run in ring 3 (the lease privileged level).
+     - Domain separation is included in the Goguen-Meseguer Model.
+  2. __Layering :__
+     - when a system is structured  into may abstract levels or layers,
+     - it becomes possible to impose security policies at different levels;
+     - moreover, it would be feasible to validate the operation.
+     - Let's consider the OSI (Open Systems interconnection) model with  its seen layers in networking.
+     - Each layer in the OSI model provides specific services to the layer above it.
+     - This layering makes it possible to impose security policies and easily validate that the system is working as intended.
+     - Another example from the programming language hides the low-level system calls and presents them as more user-friendly methods . Layering relates defence in Depth.
+       
+  3. __Encapsulation :__
+     -
+  4. __Redundancy :__
+     - 
+  5. __virtualization :__
+     -
