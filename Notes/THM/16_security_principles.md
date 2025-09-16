@@ -135,8 +135,41 @@ Moreover, ensuring that the other party cannot deny being the source is vital fo
      - Another example from the programming language hides the low-level system calls and presents them as more user-friendly methods . Layering relates defence in Depth.
        
   3. __Encapsulation :__
-     -
+     - in oop, we hide low-level implementations and prevent direct manipulation of the data in an object by providing specific methods for that purpose.
+     - Example , if you have a clock object, you would provide a method  `increment()` instead of giving the user direct access to the `seconds` variable.
+     - The aim is prevent invalid values for your variables.
+     - Similarly , in larger systems, you would use (or even design) a proper application programming interface (API) that your application would use to access the database.
   4. __Redundancy :__
-     - 
+    - The principle ensures availabiltiy and integrity.
+    - There are examples related to redundacy.
+    - Consider the case of a hardware server with two built-in power supplies:
+      - if one power supply fails , the system continues to function.
+      - Consider a RAID 5 configuration with three drives:
+        - if one drive fails, data remains avaliable using the remaining two drives.
+        - Moreover , if data is improperly changed on one of the disks,
+        - it would be detected via the parity , ensuring the data's integrity.
   5. __virtualization :__
-     -
+    - with the advent of cloud services, virualization has become more common and popular.
+    - The concept of virtualization is sharing a single set of hardware among muliple operating systems.
+    - virtualization provides sandboxing capabilities that imporve security boundaries, secure detonation, and observance of malicious porgrams.
+  ## 5 Design principles:
+  1. __Least Privilege :__
+    - you can also phrase it infomally as "need-to basis" or "need-to-know basis" as you answer the  question , "Who can access  what?"
+    - The principle of least privailege teches that you should provide the least amount of permissions for someone to carry out their task and nothing more.
+    - For example , if a user needs to be able to view a document , you should give them read rights without wirte rights.
+  2. __Attack Surface Minimisation :__
+    - Every system has vulnerabilities that and attacker might use to compromise a system.
+    - Some vulnerabilities are known , while others are yet to be discovered.
+    - These vulnerabilities represent risks that we should aim to minimize.
+    - For example, in one of the steps to harden a Linux system , we would disable any service we don't need.
+  3. __Centralized Parameter Validation :__
+    - Many threats are due to the system receiving input,especially from users.
+    - invalid inputs can be used to exploit vulnerabilities in the system, such as denial of service and remote code execution.
+    - Therefore,parameter validation is a necessary step to ensure the correct system state.
+    - Considering the number of parameters a system handles,
+    - the validation of the parameters should be centralized within one library or system.
+      
+
+  4. __Centralized General Security Services :__
+
+  5. __Preparing for Error and Exception Handling :__
