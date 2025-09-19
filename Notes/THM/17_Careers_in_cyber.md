@@ -24,3 +24,13 @@
 
 ### Incident Responder 
   - Incident responders respond productivity  and efficiently to security breaches.
+  - Responsibilities include creating plans , policies , and protocols for organisations to enact during and following incidents.
+  - This is often a highly pressurised postion with assessments and responses required in real-time , as attacks are unfolding.
+  - incident response metrics include MTTd , MTTA, and MTTR-the meantime to detect, acknowledge , and recover (from attacks.)
+  - The aim to achieve a swift and effective response , retain financial standing and avoid negative breach implications.
+  - Ultimately , incident responders protect the company's data , resputation , and finicial from cyber attacks.
+
+#### Responsibilities
+- Developing and adopting a thorough, actionable incident response plan
+- Maintaining strong securtiy best practices and supporting inccident response measures.
+- Post-incident reporting and preparation for future attacks , condidering learnings and adaptions to take from incidents.
