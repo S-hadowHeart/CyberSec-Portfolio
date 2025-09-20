@@ -34,3 +34,14 @@
 - Developing and adopting a thorough, actionable incident response plan
 - Maintaining strong securtiy best practices and supporting inccident response measures.
 - Post-incident reporting and preparation for future attacks , condidering learnings and adaptions to take from incidents.
+
+### Digital Forensics Examiner 
+- you  would be focused on collecting and analysing evidence to help  solve crimes:
+- charging the guilty and exonerating the innocent.
+- On the other hand, if your work falls under defending a company's network,
+- you will be using your forensic skills to analyse incidents,such as poliy violations.
+
+#### Responsibilties
+- Collect digital  evidence while observing legal procedures
+- Analyse digital evidence to find answers related to the case
+- Document your findings and report on the case
