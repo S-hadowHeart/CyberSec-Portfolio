@@ -45,3 +45,16 @@
 - Collect digital  evidence while observing legal procedures
 - Analyse digital evidence to find answers related to the case
 - Document your findings and report on the case
+
+### Malware Analyst
+- A malware analyst's work involves analysing suspicious programs, discovering what they do and writing reports about their findings.
+- A malware analyst is sometimes called a reverse-engineer as their core task revolves around converting compiled programs from machine language to readable code, usally in a low-level language.
+- This work requires the malware analyst to have a strong programming background,especially in low-level language such as assembly language and C language.
+- The ultimate goal is to learn about all the activities that a malicious program carries out, find out how to detect it and report it.
+
+#### Responsibilities
+- carry out static analysis of malicious programs , which entails reverse-engineering
+  - Static analysis: The process of analyzing malware without executing it , but in a controlled environment.
+- Conduct dynamic analysis of malware samples by observing their activities in a controlled environment
+  - Dynamic analysis: The process of analyzing malware by running it in a controlled environment like a sandbox
+- Document and report all the findings
