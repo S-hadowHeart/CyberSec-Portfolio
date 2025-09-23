@@ -52,3 +52,108 @@
 - They understatnd that security is hard work that requires just one loophole to be successful.
 - To mitigate risks from a continuously evolving threat landscape, a security engineer plans to conduct regular security assessments, audits, and red-teaming and purple-teaming exercises to continuously improve the security posture.
 - while securtiy engineers might not be performing assessemts and audits themselves, they are primarily involved in helping schedule these activites, creating request for quotations(RFQs) for eternal parties to perform these activities, and helping prioritize and implement the findings from them.
+## Continuous Improvement
+- An organization's security is not a one-time job but a continuous effort.
+- Similarly, the security engineer's job doesn't end once policies are designed and implemented.
+- Rather,it is a journey towards continuous improvement.
+- The following steps help security enginner carry out this role.
+### Ensuring Awareness
+- A security engineer might be tasked with maintaining a certain security awareness  level in the organization.
+- Humans are the buiding blocks of any organization, and as is often said, humans are the weakest link in an organization's security.
+- A security engineer periodically runs awareness sessions targeting primarily social engineering attacks to ensure that humans don't make mistakes that can compromise an organization's security.
+- Awareness sessions are also organized for specific teams to ensure they follow security priniciples related to theire area of experise, like secure software development or secure network architecture.
+### Managing Risks in Security
+1. Executive Viewpoint
+  - Management focuses on minimizing risks when it comes to security.
+  - Security is critical as ignoring it can cause:
+      - Operational disruptions
+      - Data leakage
+      - Lawsuits
+      - Other business risks
+2. Role of Security Engineer
+  - Identify security risks.
+  - Determine likelihood and impact.
+  - Suggest solutions to minimize risks.
+  - Act as a trusted advisor to management.
+3. Risk Reality
+  - Eliminating all risks is not always possible.
+  - Sometimes risks must be:
+    - Accepted (live with it)
+    - Mitigated (reduce impact/likelihood)
+4. Business Decision
+  - Accepting or mitigating risks is ultimately a business decision.
+  - Security engineer provides expertise to guide decision-making.
+5. Example Scenario
+  - Organization uses supply chain software that runs on a vulnerable Linux version.
+  - Updating to a safe OS version requires:
+    - More than a year of effort
+    - Vendor engagement (vendor hasn’t tested software on latest OS)
+  - Deploying on new OS without testing risks operational problems.
+6. Resulting Risk
+  - Vulnerable OS introduces a security risk.
+7. Mitigation Approach Suggested by Security Engineer
+  - Harden the OS with additional security controls.
+  - Place a reverse proxy in front of the system to avoid direct internet exposure.
+8. Outcome
+  - Risk is reduced significantly.
+  - Operations remain unaffected.
+  - Risk not eliminated but made manageable.
+
+## Change Management
+- Organizations evolve, leading to changes in their security posture.  
+- Security engineer tracks changes in digital assets affecting security.  
+- Takes measures to maintain/improve security posture with organizational evolution.  
+- Example: Upgrading e-commerce module of website  
+  - Requires:  
+    - Risk assessment  
+    - Penetration testing  
+    - Vulnerability assessment  
+  - Security engineer ensures:  
+    - All tests are performed before integration  
+    - No new vulnerabilities are introduced  
+    - New module complies with security policies & guidelines  
+
+## Vulnerability Management
+- Threat landscape evolves continuously.  
+- New software versions → Old versions become vulnerable.  
+- Security engineer monitors vulnerabilities across the organization.  
+- Plans patching or mitigation strategies.  
+- Patching is prioritized based on **severity of vulnerabilities**.  
+
+## Compliance and Audits
+- Ensures compliance with regulatory & organizational requirements.  
+- Compliance standards may include:  
+  - PCI-DSS  
+  - HIPAA  
+  - SOC2  
+  - ISO27001  
+  - NIST-800-53  
+- Works with internal & external auditors to:  
+  - Detect non-compliance issues  
+  - Address them effectively  
+- Responsible for maintaining required **security certifications**.
+
+# Additional Roles and Responsibilities of a Security Engineer
+
+## Managing Security Tooling
+- Configure or fine-tune security tools (e.g., SIEMs, Firewalls, WAFs, EDRs).  
+- In some organizations, managing these tools is the **primary responsibility**.  
+- Provide input or make decisions on **procurement of tools** based on:  
+  - Organization’s requirements  
+  - Assessment of competitive tools  
+
+## Tabletop Exercises
+- Conducted to **gauge operational readiness** from a security perspective.  
+- Involves identifying scenarios (e.g., endpoint compromise via phishing).  
+- Team members explain their **roles and steps** as per organizational playbooks.  
+- Security engineer may be responsible for **conducting exercises**.  
+
+## Disaster Recovery and Crisis Management
+- Organizations must plan for incidents, disasters, or crises.  
+- Executive management’s **top priority**: Maintain **business continuity**.  
+- Security engineer may be involved in:  
+  - Disaster recovery planning  
+  - Business continuity planning  
+  - Crisis management planning  
+- Role varies depending on the **organization and compliance frameworks**.  
+
