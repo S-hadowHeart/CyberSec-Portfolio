@@ -68,3 +68,15 @@
 - Conduct tests on computer systems, networks, and web-based applications
 - Perform security assessments,audits, and analyse policies
 - Evaluate and report on insights, recommending actions for attack prevention
+
+### Red Teamer 
+- Red teamers share similarities to pentration testers, with a more targeted job role.
+- Penetration testers look to uncover many vulnerabilities across systems to keep cyber-defence in good standing, whilst red teamers are encted to test the company's detection and response capabilities.
+- This job role requires imitating cyber criminal's actions , emulating malicious attacks , retaining access and avoiding detection.
+- Red team assessments can run for up to a month,typically by a team external too the company.
+- They are often best suited to organisations with mature security programs in place
+
+#### Responsibilties
+- Emulate the role of a threat actor to uncover exploitable vulnerabilities, maintain access and avoid detection
+- Assess organisation's security controls, threat intelligence, and incident responce procedures
+- Evaluate and report on insights , with actionable data for companies to avoid real-world instances
