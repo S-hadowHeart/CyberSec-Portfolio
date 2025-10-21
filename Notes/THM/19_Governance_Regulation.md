@@ -49,7 +49,7 @@
 
 
 
-# Information Security Frameworks – Pointwise Notes
+# Information Security Frameworks
 
 ## 1. **Definition**
 - An **information security framework** is a structured set of guidelines and documents that direct how an organisation manages, implements, and enforces security practices.
@@ -91,4 +91,87 @@
 | Procedure     | Step-by-step execution instructions                 |
 | Baseline      | Minimum security requirements                       |
 
+
+# Information Security Governance and Compliance (GRC Framework)
+
+## Overview
+- **Purpose:** Maintains an organisation’s security posture through integrated governance, risk management, and compliance.
+- **Goal:** Align information security with organisational objectives and ensure adherence to laws, regulations, and standards.
+- **Approach:** Holistic and integrated management of governance, risk, and compliance activities.
+
+---
+
+## Components of GRC
+
+### 1. Governance Component
+- Guides organisation through **security strategy** (policies, standards, baselines, frameworks).
+- Establishes **monitoring methods** to assess performance and outcomes.
+- Ensures **direction, accountability, and oversight** in information security.
+
+### 2. Risk Management Component
+- **Identify, assess, and prioritise** risks to the organisation.
+- Implement **controls and mitigation strategies** for risk reduction.
+- **Monitor, report, and refine** risk management continuously.
+- Aim: Maintain an **acceptable level of risk exposure**.
+
+### 3. Compliance Component
+- Ensure adherence to **legal, regulatory, and industry obligations**.
+- Develop and implement **compliance programs**.
+- Conduct **regular audits and assessments**.
+- Report **compliance issues** to stakeholders.
+
+---
+
+## Developing a GRC Program – Generic Guidelines
+
+### 1. Define Scope and Objectives
+- Determine the **boundaries and goals** of the GRC program.
+- *Example:* Implement GRC for customer data system with the objective to **reduce cyber risks by 50% in 12 months**.
+
+### 2. Conduct Risk Assessment
+- **Identify and assess** cyber risks and vulnerabilities.
+- *Example:* Weak access controls or outdated software.
+- **Prioritise risks** and develop mitigation strategies.
+
+### 3. Develop Policies and Procedures
+- Create **guidelines for cybersecurity practices**.
+- *Example:* Password policy, logging and monitoring procedures.
+
+### 4. Establish Governance Processes
+- Form **security steering committees** for oversight.
+- Define **roles and responsibilities** for all stakeholders.
+- Review and make decisions on **security investments and priorities**.
+
+### 5. Implement Controls
+- Apply **technical and non-technical controls** to mitigate risks.
+- *Examples:* Firewalls, IDS/IPS, SIEM systems, employee security training.
+
+### 6. Monitor and Measure Performance
+- Track **metrics and compliance** with policies.
+- Evaluate **effectiveness of controls** and identify areas for improvement.
+
+### 7. Continuously Improve
+- Conduct **post-incident analyses** and update frameworks.
+- Adapt to **changing threats, risks, and business goals**.
+- Use **feedback and performance data** for refinement.
+
+---
+
+## Example: GRC Framework in the Financial Sector
+
+### Governance Activities
+- Appoint **governance executives**.
+- Develop **financial policies** (e.g., AML, BSA, crisis management).
+- Conduct **financial audits and reporting**.
+
+### Risk Management Activities
+- Identify **financial and cyber risks** (e.g., fraud, phishing, stolen credentials).
+- Develop **countermeasures** (e.g., fraud detection, secure authentication).
+
+### Compliance Activities
+- Meet **legal and industry standards** (PCI DSS, GLBA, etc.).
+- Implement **security controls** (SSL/TLS, patch management).
+- Conduct **user awareness campaigns** (e.g., phishing prevention).
+
+---
 
