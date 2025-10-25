@@ -174,4 +174,34 @@
 - Conduct **user awareness campaigns** (e.g., phishing prevention).
 
 ---
+## Privacy and Data Protection
+
+- **Privacy and data protection regulations** apply to sectors like financial, healthcare, government, and industry, focusing on the handling of citizens' Personally Identifiable Information (PII).
+- Such regulations ensure **responsible and ethical handling, storage, and processing** of personal data.
+- These frameworks help **establish trust, regulatory compliance, and protection of personal information**.
+
+### General Data Protection Regulation (GDPR)
+- **Implemented** by the EU in May 2018 to safeguard personal data.
+- **Personal data:** Any information linked to an individual enabling direct or indirect identification.
+- **Key Points:**
+  - Prior approval required before collecting personal data.
+  - Only necessary data should be collected (data minimization).
+  - Robust protection measures must be applied when storing personal data.
+- **Applicability:** 
+  - Applies to any organization doing business in the EU and handling EU residents' data.
+- **Benefits:**
+  - Known as one of the strictest privacy regulations globally.
+  - Collection limited to legitimate and transparent reasons.
+- **Penalties for non-compliance:**
+  - **Tier 1 (Severe violations):** Up to 4% of global revenue or 20 million euros (whichever is higher).
+  - **Tier 2 (Less severe violations):** Up to 2% of revenue or 10 million euros (whichever is higher).
+
+### Payment Card Industry Data Security Standard (PCI DSS)
+- **Purpose:** Secure card transactions and prevent data theft/fraud.
+- **Usage:** Required for any business that takes card-based payments, especially online.
+- **Development:** Maintained by credit card companies such as Visa, MasterCard, and American Express.
+- **Requirements:**
+  - Strict access control of cardholder data.
+  - Continuous monitoring for unauthorized access.
+  - Strong security practices like firewalls and encryption.
 
