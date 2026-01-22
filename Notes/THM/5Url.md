@@ -2,8 +2,11 @@
 - URL is a web address that les you access all kinds of onlince content
 - whether it's a webpage,a video , a photo , or other mdedia.
 - It's guides your browser to the right place on the Internet.
+  
 ## Anatomy of URL
 <img width="1140" height="270" alt="url" src="https://github.com/user-attachments/assets/b04385a7-89c8-426c-92ed-83116b365118" />
+
+
 ### Scheme
 - is protocol used to access the website.
 - The most common are http and https
